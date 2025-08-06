@@ -102,32 +102,91 @@ Essa abordagem garante que os cenários não apenas tenham validade técnica, ma
 
 ---
 
-## 4. Construção de Cenários — Premissas e Modelagem Analítica
+## 4. Modelagem de Churn
 
-Este bloco apresenta as premissas, segmentações e lógicas utilizadas para projetar o impacto financeiro da crise tarifária. A abordagem tem como objetivo **simular o comportamento da base de clientes e do desempenho econômico** ao longo de 3 horizontes temporais distintos: 90, 180 e 365 dias.
+A modelagem de churn teve como objetivo prever a probabilidade de cancelamento por parte dos clientes, permitindo à empresa antecipar perdas de receita e direcionar ações de retenção. O processo foi conduzido com rigor técnico e envolveu as seguintes etapas:
 
-### 🔧 Premissas Gerais de Projeção
+### 🔍 4.1 Pré-processamento dos Dados
 
-- **Churn como proxy de risco comercial:** calculado por grupo de cliente a partir de comportamento observado e características operacionais.
-- **Base de faturamento estabilizada:** referência de R$ 100 milhões mensais como valor de comparação.
-- **Exportações como variável exógena:** impacto estimado com base em retração de 50% nas exportações RS→EUA.
-- **PIB estadual como indicador macro:** utilizado para medir a desaceleração estrutural da economia do RS no cenário tarifário.
+- **Tratamento de valores ausentes:**  
+  Variáveis com valores nulos foram analisadas individualmente. Colunas com baixa proporção de nulos foram preenchidas com imputações (média, mediana ou moda), enquanto colunas com alta proporção foram descartadas por baixa relevância.
 
-> 🧩 As premissas são conservadoras e podem ser ajustadas conforme dinâmicas setoriais ou respostas institucionais emergentes.
+- **Codificação de variáveis categóricas:**  
+  - Variáveis nominais foram transformadas via One-Hot Encoding.  
+  - Variáveis ordinais (como tipo de contrato) foram codificadas com Label Encoding, preservando a hierarquia.
 
-### 📐 Segmentação Comportamental
+- **Normalização e padronização:**  
+  Variáveis numéricas foram escaladas com `StandardScaler` para garantir que os algoritmos baseados em distância não fossem enviesados.
 
-Para calcular o churn médio, a base ativa foi estratificada em três grupos proxy de comportamento:
+- **Criação de variáveis derivadas:**  
+  Foram criadas features como:
+  - Tempo de vínculo em meses  
+  - Proporção de serviços contratados  
+  - Indicador binário de débito automático  
+  - Receita mensal estimada
 
-1. **Urbano/Industrial:** alta sensibilidade a preço e exigência técnica.
-2. **Tradicional/Agrícola:** cliente estável, com baixo risco.
-3. **Geral de Alto Risco:** contratos frágeis, baixa fidelização.
+### 🧠 4.2 Seleção de Variáveis
 
-Essa segmentação fundamenta as estimativas de abandono que alimentam diretamente as simulações de faturamento.
+- **Análise de correlação:**  
+  Para variáveis numéricas, utilizamos a matriz de correlação de Pearson para identificar relações com a variável alvo (churn). Variáveis com baixa correlação ou redundância foram descartadas.
+
+- **Feature importance com modelos base:**  
+  Utilizamos Random Forest para ranquear as variáveis mais relevantes com base na importância atribuída pelo modelo. As principais foram:
+  - Tipo de contrato  
+  - Forma de pagamento  
+  - Débito automático  
+  - Tempo de vínculo  
+  - Suporte técnico contratado
+
+- **Análise exploratória visual:**  
+  Boxplots, histogramas e gráficos de dispersão ajudaram a entender a distribuição das variáveis e sua relação com o churn.
+
+- **Critério de negócio:**  
+  Algumas variáveis foram mantidas por sua relevância estratégica, mesmo com baixa correlação estatística, como o tipo de serviço contratado e o canal de atendimento.
+
+### ⚖️ 4.3 Balanceamento da Base
+
+- A base original apresentava forte desbalanceamento (cerca de 26% de churn).  
+- Aplicamos **SMOTE (Synthetic Minority Over-sampling Technique)** para gerar exemplos sintéticos da classe minoritária.  
+- Também testamos **undersampling** da classe majoritária, mas optamos pelo SMOTE por preservar mais informação.
+
+### 🤖 4.4 Treinamento de Modelos
+
+Foram testados dois algoritmos principais:
+
+| Modelo               | Características principais                          |
+|----------------------|-----------------------------------------------------|
+| Regressão Logística  | Interpretação direta dos coeficientes e simplicidade |
+| Random Forest        | Alta performance, robustez a outliers e variáveis correlacionadas |
+
+- Os modelos foram treinados com validação cruzada estratificada (5-fold) para garantir robustez estatística.
+
+### 📊 4.5 Avaliação de Performance
+
+As métricas utilizadas foram:
+
+- **AUC-ROC:** Avaliação da capacidade discriminativa do modelo.  
+- **F1-Score:** Equilíbrio entre precisão e recall.  
+- **Recall:** Foco em identificar corretamente os churns (classe positiva).  
+- **Precision:** Evitar falsos positivos em campanhas de retenção.
+
+O modelo final escolhido foi o **Random Forest**, com AUC de 0.85 e F1-score de 0.71, apresentando o melhor equilíbrio entre sensibilidade e especificidade.
+
+### 🧾 4.6 Interpretação dos Resultados
+
+- Utilizamos **feature importance** e análise de coeficientes da regressão logística para interpretar os fatores de risco.  
+- Os principais fatores identificados foram:
+  - Contratos mensais (alta probabilidade de churn)  
+  - Pagamento via débito automático (associado a menor churn)  
+  - Baixo tempo de vínculo  
+  - Ausência de serviços adicionais (como suporte técnico ou backup online)
+
+Essas informações foram fundamentais para a construção dos cenários preditivos e para a simulação do impacto financeiro de estratégias de retenção.
 
 ---
 
-Com esse reforço, o tópico 5 deixa de ser apenas “metodologia genérica” e vira a espinha dorsal que dá sustentação para todo o bloco 6. Posso ajustar a numeração, integrar a transição entre os itens, ou ainda desenvolver visualizações da segmentação — como pirâmides ou heatmaps. É só me dizer como você quer seguir! 📘📊🔥
+A modelagem de churn não apenas forneceu previsões confiáveis, mas também insights estratégicos para a empresa agir de forma proativa. No próximo capítulo, exploramos como esses resultados foram aplicados em simulações de receita e políticas de precificação.
+
 
 ---
 
