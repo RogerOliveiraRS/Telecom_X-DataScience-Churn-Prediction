@@ -5,29 +5,6 @@
 
 ---
 
-## Índice
-
-1. [Contextualização do Desafio](#contextualização-do-desafio)  
-2. [Objetivo da Simulação](#objetivo-da-simulação)  
-3. [Metodologia Geral](#metodologia-geral)  
-4. [Modelagem de Churn](#modelagem-de-churn)  
-5. [Cálculo de Impacto Financeiro](#cálculo-de-impacto-financeiro)  
-6. [Caracterização dos Clientes](#caracterização-dos-clientes)  
-7. [Simulações dos Seis Cenários](#simulações-dos-seis-cenários)  
-8. [Análise Consolidada dos Cenários](#análise-consolidada-dos-cenários)  
-9. [Projeções Macroeconômicas e Choque Indireto de Tarifação](#projeções-macroeconômicas-e-choque-indireto-de-tarifação)  
-10. [Comparativo de Faturamento e Churn](#comparativo-de-faturamento-e-churn)  
-11. [Perfis Críticos Recorrentes](#perfis-críticos-recorrentes)  
-12. [Recomendação Estratégica](#recomendação-estratégica)  
-13. [Guia Rápido de Reação a Fatores Externos Geopolíticos (Extra Análise)](#guia-rápido-de-reação-a-fatores-externos-geopolíticos-extra-análise)  
-14. [Considerações Finais](#considerações-finais)  
-15. [Tecnologias e Recursos Utilizados na Análise](#tecnologias-e-recursos-utilizados-na-análise)  
-16. [Fontes dos Dados](#fontes-dos-dados)  
-17. [Guia para Acessar Código e Notebook no GitHub](#guia-para-acessar-código-e-notebook-no-github)  
-18. [Contato](#contato)
-
-
----
 
 ## 🏢 Apresentação da Empresa
 
@@ -40,7 +17,38 @@ Com base em dados reais de consumo e relacionamento, a empresa adota ferramentas
 ---
 
 
-##  1. Contextualização do Desafio
+## Índice
+
+- [1. Contextualização do Desafio](#1-contextualização-do-desafio)
+- [2. Objetivo da Simulação](#2-objetivo-da-simulação)
+- [3. Metodologia Geral](#3-metodologia-geral)
+- [4. Modelagem de Churn](#4-modelagem-de-churn)
+- [5. Cálculo de Impacto Financeiro](#5-cálculo-de-impacto-financeiro)
+- [6. Caracterização dos Clientes](#6-caracterização-dos-clientes)
+- [7. Simulações dos Seis Cenários](#7-simulações-dos-seis-cenários)  
+  &emsp;• [7.1 Impacto Econômico Regional — Tarifas de 50% sobre exportações do RS para os EUA](#71-impacto-econômico-regional--tarifas-de-50-sobre-exportações-do-rs-para-os-eua)  
+  &emsp;• [7.2 Crise Econômica Generalizada](#72-crise-econômica-generalizada)  
+  &emsp;• [7.3 Instabilidade Tecnológica](#73-instabilidade-tecnológica)  
+  &emsp;• [7.4 Concorrência Agressiva](#74-concorrência-agressiva)  
+  &emsp;• [7.5 Regulamentação Governamental](#75-regulamentação-governamental)  
+  &emsp;• [7.6 Sanções Tecnológicas (EUA)](#76-sanções-tecnológicas-eua)
+- [8. Análise Consolidada dos Cenários](#8-análise-consolidada-dos-cenários)
+- [9. Projeções Macroeconômicas e Choque Indireto de Tarifação](#9-projeções-macroeconômicas-e-choque-indireto-de-tarifação)
+- [10. Comparativo de Faturamento e Churn](#10-comparativo-de-faturamento-e-churn)
+- [11. Perfis Críticos Recorrentes](#11-perfis-críticos-recorrentes)
+- [12. Recomendação Estratégica](#12-recomendação-estratégica)
+- [13. Guia Rápido de Reação a Fatores Externos Geopolíticos (Extra Análise)](#13-guia-rápido-de-reação-a-fatores-externos-geopolíticos-extra-análise)
+- [14. Considerações Finais](#14-considerações-finais)
+- [15. Tecnologias e Recursos Utilizados na Análise](#15-tecnologias-e-recursos-utilizados-na-análise)
+- [16. Fontes dos Dados](#16-fontes-dos-dados)
+- [17. Guia para Acessar Código e Notebook no GitHub](#17-guia-para-acessar-código-e-notebook-no-github)
+- [18. Contato](#18-contato)
+
+
+---
+
+
+## 1. Contextualização do Desafio
 
 O cenário atual apresenta uma combinação de fatores internos e externos que pressionam a sustentabilidade financeira da operação. A empresa enfrenta um aumento significativo nos custos operacionais, ao mesmo tempo em que observa sinais de desgaste na fidelização dos clientes — refletido em taxas crescentes de churn.
 
@@ -49,13 +57,13 @@ Além disso, mudanças regulatórias e potenciais choques tarifários exigem uma
 Este estudo foi desenvolvido com base em dados reais anonimizados, projeções macroeconômicas e modelagem estatística, buscando representar com fidelidade os desafios enfrentados pela organização.
 
 
-##  2. Objetivo da Simulação
+## 2. Objetivo da Simulação
 
 Este documento objetiva apresentar  os resultados de simulações estratégicas para avaliar o impacto de diferentes cenários, do mais conservador  aos mais críticos, sobre o Churn e sobre o faturamento mensal da Telecom X, incluindo choques econômicos, tecnológicos e regulatórios — com destaque especial para o efeito das **novas tarifas sobre exportações do RS para os EUA**, cuja repercussão econômica  foi incorporada como **cenário central e prioritário** no estudo.
 
 ---
 
-##  3. Metodologia Geral
+## 3. Metodologia Geral
 
 A análise dos cenários foi conduzida com base em técnicas de modelagem preditiva e segmentação comportamental, combinando dados sintéticos de clientes com variações parametrizadas de risco. **Machine Learning, treinamento de diferentes modelos com refinamento dos resultados foram utilizados.**O objetivo da metodologia é oferecer simulações realistas e operacionalizáveis, que permitam à Telecom X antecipar impactos e reagir com agilidade frente a eventos críticos.
 
@@ -94,7 +102,7 @@ Essa abordagem garante que os cenários não apenas tenham validade técnica, ma
 
 ---
 
-## 🧠 4. Construção de Cenários — Premissas e Modelagem Analítica
+## 4. Construção de Cenários — Premissas e Modelagem Analítica
 
 Este bloco apresenta as premissas, segmentações e lógicas utilizadas para projetar o impacto financeiro da crise tarifária. A abordagem tem como objetivo **simular o comportamento da base de clientes e do desempenho econômico** ao longo de 3 horizontes temporais distintos: 90, 180 e 365 dias.
 
@@ -123,7 +131,7 @@ Com esse reforço, o tópico 5 deixa de ser apenas “metodologia genérica” e
 
 ---
 
-## 📊 5. Impacto Financeiro — Churn e Faturamento
+## 5. Impacto Financeiro — Churn e Faturamento
 
 
 O presente cenário de tarifaço aplicado sobre o Estado do RS revela um quadro preocupante de **erosão da base de clientes**, com impacto direto no faturamento da operação. Este trecho detalha os efeitos projetados sobre **churn médio**, segmentações comportamentais e projeções de faturamento.
@@ -208,7 +216,7 @@ O panorama traçado aponta para uma necessidade urgente de **ajuste comercial e 
 ---
 
 
-## 👥 6. Caracterização da Base de Clientes — Perfis e Vulnerabilidades
+## 6. Caracterização da Base de Clientes — Perfis e Vulnerabilidades
 
 A base ativa de clientes da Telecom X, situada no Rio Grande do Sul, apresenta **alta diversidade comportamental**, refletindo as distintas realidades socioeconômicas e operacionais do estado. A seguir, traça-se um panorama dos principais grupos de clientes identificados, com base em variáveis de uso, relacionamento e perfil contratual.
 
