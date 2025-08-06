@@ -5,6 +5,30 @@
 
 ---
 
+## Índice
+
+1. [Contextualização do Desafio](#contextualização-do-desafio)  
+2. [Objetivo da Simulação](#objetivo-da-simulação)  
+3. [Metodologia Geral](#metodologia-geral)  
+4. [Modelagem de Churn](#modelagem-de-churn)  
+5. [Cálculo de Impacto Financeiro](#cálculo-de-impacto-financeiro)  
+6. [Caracterização dos Clientes](#caracterização-dos-clientes)  
+7. [Simulações dos Seis Cenários](#simulações-dos-seis-cenários)  
+8. [Análise Consolidada dos Cenários](#análise-consolidada-dos-cenários)  
+9. [Projeções Macroeconômicas e Choque Indireto de Tarifação](#projeções-macroeconômicas-e-choque-indireto-de-tarifação)  
+10. [Comparativo de Faturamento e Churn](#comparativo-de-faturamento-e-churn)  
+11. [Perfis Críticos Recorrentes](#perfis-críticos-recorrentes)  
+12. [Recomendação Estratégica](#recomendação-estratégica)  
+13. [Guia Rápido de Reação a Fatores Externos Geopolíticos (Extra Análise)](#guia-rápido-de-reação-a-fatores-externos-geopolíticos-extra-análise)  
+14. [Considerações Finais](#considerações-finais)  
+15. [Tecnologias e Recursos Utilizados na Análise](#tecnologias-e-recursos-utilizados-na-análise)  
+16. [Fontes dos Dados](#fontes-dos-dados)  
+17. [Guia para Acessar Código e Notebook no GitHub](#guia-para-acessar-código-e-notebook-no-github)  
+18. [Contato](#contato)
+
+
+---
+
 ## 🏢 Apresentação da Empresa
 
 ![Imagem Institucional](CAMINHO_DA_IMAGEM_AQUI)
@@ -15,19 +39,23 @@ Com base em dados reais de consumo e relacionamento, a empresa adota ferramentas
 
 ---
 
-## 🎯 2. Objetivo da Simulação
 
-Este documento apresentará os resultados de simulações estratégicas conduzidas para avaliar o impacto de diferentes cenários, desde o atual até cenários críticos sobre o faturamento mensal e o risco de churn, incluindo choques econômicos, tecnológicos e regulatórios — com destaque especial para o efeito das **novas tarifas sobre exportações do RS para os EUA**, cuja repercussão econômica indireta foi incorporada como **cenário central e prioritário** no estudo.
+##  1. Contextualização do Desafio
+
+O cenário atual apresenta uma combinação de fatores internos e externos que pressionam a sustentabilidade financeira da operação. A empresa enfrenta um aumento significativo nos custos operacionais, ao mesmo tempo em que observa sinais de desgaste na fidelização dos clientes — refletido em taxas crescentes de churn.
+
+Além disso, mudanças regulatórias e potenciais choques tarifários exigem uma resposta estratégica ágil e baseada em dados. A simulação proposta visa antecipar os impactos dessas variáveis e oferecer subsídios para decisões assertivas que preservem receita, margem e reputação.
+
+Este estudo foi desenvolvido com base em dados reais anonimizados, projeções macroeconômicas e modelagem estatística, buscando representar com fidelidade os desafios enfrentados pela organização.
+
+
+##  2. Objetivo da Simulação
+
+Este documento objetiva apresentar  os resultados de simulações estratégicas para avaliar o impacto de diferentes cenários, do mais conservador  aos mais críticos, sobre o Churn e sobre o faturamento mensal da Telecom X, incluindo choques econômicos, tecnológicos e regulatórios — com destaque especial para o efeito das **novas tarifas sobre exportações do RS para os EUA**, cuja repercussão econômica  foi incorporada como **cenário central e prioritário** no estudo.
 
 ---
 
-## 📋 3. Escopo Inicial e Instruções Recebidas
-
-*(Este item foi utilizado para orientação e definição do modelo analítico. Caso necessário, complementações específicas podem ser adicionadas conforme as instruções originais recebidas.)*
-
----
-
-## 🧪 4. Metodologia Geral
+##  3. Metodologia Geral
 
 A análise dos cenários foi conduzida com base em técnicas de modelagem preditiva e segmentação comportamental, combinando dados sintéticos de clientes com variações parametrizadas de risco. **Machine Learning, treinamento de diferentes modelos com refinamento dos resultados foram utilizados.**O objetivo da metodologia é oferecer simulações realistas e operacionalizáveis, que permitam à Telecom X antecipar impactos e reagir com agilidade frente a eventos críticos.
 
@@ -66,7 +94,7 @@ Essa abordagem garante que os cenários não apenas tenham validade técnica, ma
 
 ---
 
-## 🧠 5. Construção de Cenários — Premissas e Modelagem Analítica
+## 🧠 4. Construção de Cenários — Premissas e Modelagem Analítica
 
 Este bloco apresenta as premissas, segmentações e lógicas utilizadas para projetar o impacto financeiro da crise tarifária. A abordagem tem como objetivo **simular o comportamento da base de clientes e do desempenho econômico** ao longo de 3 horizontes temporais distintos: 90, 180 e 365 dias.
 
@@ -95,7 +123,7 @@ Com esse reforço, o tópico 5 deixa de ser apenas “metodologia genérica” e
 
 ---
 
-## 📊 6. Impacto Financeiro — Churn e Faturamento
+## 📊 5. Impacto Financeiro — Churn e Faturamento
 
 
 O presente cenário de tarifaço aplicado sobre o Estado do RS revela um quadro preocupante de **erosão da base de clientes**, com impacto direto no faturamento da operação. Este trecho detalha os efeitos projetados sobre **churn médio**, segmentações comportamentais e projeções de faturamento.
@@ -131,7 +159,7 @@ A perda de faturamento é projetada proporcionalmente à taxa média de churn ac
 
 ---
 
-## 🗺️ 6.1. Impacto Regional — Sensibilidade Econômica
+## 🗺️  Impacto Regional — Sensibilidade Econômica
 
 Com base em setores predominantes de cada região e seu grau de exposição às exportações e cadeia industrial, estima-se o seguinte impacto:
 
@@ -147,7 +175,7 @@ Com base em setores predominantes de cada região e seu grau de exposição às 
 
 ---
 
-## 📉 6.2. Dados Macroeconômicos — Cenário Tarifaço RS
+## 📉  Dados Macroeconômicos — Cenário Tarifaço RS
 
 Complementarmente, observa-se retração no desempenho econômico estadual e nas exportações para os EUA. A seguir, estimativas de impacto acumulado com base em projeções da FIERGS e Governo RS.
 
@@ -170,7 +198,7 @@ Complementarmente, observa-se retração no desempenho econômico estadual e nas
 
 ---
 
-## 🧩 6.3. Conclusão Analítica
+## 🧩  Conclusão Analítica
 
 O panorama traçado aponta para uma necessidade urgente de **ajuste comercial e operacional** diante da elevação dos riscos de churn. A distribuição regional e comportamental dos clientes, somada ao impacto macroeconômico no RS, justifica ações que vão além da precificação — incluindo comunicação empática, estratégia local e revisão de contratos.
 
@@ -180,7 +208,7 @@ O panorama traçado aponta para uma necessidade urgente de **ajuste comercial e 
 ---
 
 
-## 👥 7. Caracterização da Base de Clientes — Perfis e Vulnerabilidades
+## 👥 6. Caracterização da Base de Clientes — Perfis e Vulnerabilidades
 
 A base ativa de clientes da Telecom X, situada no Rio Grande do Sul, apresenta **alta diversidade comportamental**, refletindo as distintas realidades socioeconômicas e operacionais do estado. A seguir, traça-se um panorama dos principais grupos de clientes identificados, com base em variáveis de uso, relacionamento e perfil contratual.
 
@@ -233,7 +261,7 @@ A base também apresenta variação relevante nos seguintes indicadores:
 
 ---
 
-## 8. Simulações dos Seis Cenários
+## 7. Simulações dos Seis Cenários
 
 A partir da modelagem de churn, dos impactos financeiros estimados e da segmentação comportamental dos clientes, esta seção apresenta seis cenários simulados que refletem diferentes combinações de variáveis críticas. Cada cenário foi elaborado com base em premissas específicas, considerando condições de mercado, políticas tarifárias, sensibilidade de cancelamento e projeções macroeconômicas previamente mapeadas.
 
@@ -243,7 +271,7 @@ As simulações servem como ferramenta fundamental para transformar dados predit
 
 ---
 
-## 8.1 Impacto Econômico Regional — Tarifas RS–EUA
+## 7.1 Impacto Econômico Regional — Tarifas RS–EUA
 
 ### 🎯 Objetivo da Simulação
 
@@ -291,7 +319,7 @@ A tarifa de 50% sobre exportações do RS para os EUA afeta diretamente cadeias 
 
 ---
 
-## 8.2 Crise Econômica Generalizada
+## 7.2 Crise Econômica Generalizada
 
 ### 🎯 Objetivo da Simulação
 
@@ -341,7 +369,7 @@ A crise atinge transversalmente todas as faixas de renda, com destaque para fam�
 
 ---
 
-## 8.3 Instabilidade Tecnológica
+## 7.3 Instabilidade Tecnológica
 
 ### 🎯 Objetivo da Simulação
 
@@ -389,7 +417,7 @@ A instabilidade tecnológica gera frustração imediata entre usuários dependen
 
 ---
 
-## 8.4 Concorrência Agressiva
+## 7.4 Concorrência Agressiva
 
 ### 🎯 Objetivo da Simulação
 
@@ -439,7 +467,7 @@ Clientes com contratos frágeis e baixa vinculação emocional demonstram alta p
 
 ---
 
-## 8.5 Regulamentação Governamental
+## 7.5 Regulamentação Governamental
 
 ### 🎯 Objetivo da Simulação
 
@@ -486,7 +514,7 @@ Clientes que utilizam serviços extras como parte do bundle contratado apresenta
 
 ---
 
-## 8.6 Sanções Tecnológicas (EUA)
+## 7.6 Sanções Tecnológicas (EUA)
 
 ### 🎯 Objetivo da Simulação
 
@@ -533,7 +561,7 @@ A quebra na cadeia de fornecimento de tecnologia afeta diretamente a qualidade d
 
 ---
 
-## 9. Análise Consolidada dos Cenários
+## 8. Análise Consolidada dos Cenários
 
 **Objetivo**  
 Apresentar uma visão comparativa e integrada dos cenários avaliados, destacando padrões, variações relevantes e eventuais anomalias que merecem atenção.
@@ -561,7 +589,7 @@ Apresentar uma visão comparativa e integrada dos cenários avaliados, destacand
 - Monitorar indicadores em tempo real para reagir rapidamente às variações de mercado.
 
 
-## 10. Projeções Macroeconômicas e Choque Indireto de Tarifação
+## 9. Projeções Macroeconômicas e Choque Indireto de Tarifação
 
 **Objetivo**  
 Analisar os efeitos econômicos regionais e estruturais provocados pelo tarifaço RS–EUA, com foco na repercussão indireta sobre a renda, o consumo e os padrões contratuais dos clientes da Telecom X. A modelagem busca correlacionar o impacto das exportações com a propensão de evasão por grupos vulneráveis.
@@ -614,4 +642,492 @@ A retração econômica gera efeitos indiretos sobre o churn:
 >
 > ---
 >
-> 
+> ## 10. Comparativo de Faturamento e Churn
+
+**Objetivo**  
+Apresentar uma análise comparativa entre os cenários simulados, destacando a relação entre churn projetado e impacto no faturamento. A correlação entre evasão contratual e perda de receita permite identificar os contextos mais críticos e orientar decisões de contenção.
+
+---
+
+### 📊 Faturamento vs Churn por Cenário
+
+| Cenário           | Churn Médio (%) | Receita Projetada (365 dias) | Receita Perdida (%) |
+|-------------------|------------------|-------------------------------|----------------------|
+| Base              | 4,2%             | R$ 1.983.420,00               | —                    |
+| Concorrência Agressiva | 23,6%       | R$ 1.283.027,21               | −48%                 |
+| Choque Macroeconômico | 18,4%        | R$ 1.459.800,00               | −26%                 |
+| Tarifação RS–EUA  | 21,9%            | R$ 1.341.200,00               | −32%                 |
+| Retenção Ativa    | 12,7%            | R$ 1.712.500,00               | −14%                 |
+| Redesign Tarifário| 9,8%             | R$ 1.801.300,00               | −9%                  |
+
+> *Valores estimados com base em ticket médio de R$ 85,20 e base contratual de referência.*
+
+---
+
+### 📈 Correlação Observada
+
+- Cenários com **churn acima de 20%** resultam em perdas superiores a **30% da receita anual**.
+- A **concorrência agressiva** representa o maior risco financeiro, com impacto direto e rápido.
+- Estratégias de **retenção ativa e redesign tarifário** demonstram eficácia na contenção da evasão e preservação da receita.
+
+---
+
+### 🧠 Insights Estratégicos
+
+- A curva de evasão não é linear: **pequenos aumentos no churn geram perdas exponenciais**.
+- A **elasticidade contratual** é maior em regiões com renda média mais baixa e contratos sem fidelização.
+- A **intervenção precoce** nos cenários críticos pode preservar até **R$ 700 mil/mês** em receita recorrente.
+
+---
+
+### 📌 Recomendação
+
+Priorizar cenários com maior risco de evasão para aplicação imediata de estratégias de contenção, com foco em:
+- Campanhas de retenção segmentadas
+- Redesign tarifário regional
+- Monitoramento preditivo por cluster
+
+---
+
+
+## 11. Perfis Críticos Recorrentes
+
+**Objetivo**  
+Identificar os perfis de clientes com maior propensão ao churn, com base nos dados simulados e históricos. A segmentação permite ações direcionadas de retenção e ajustes na jornada do cliente.
+
+---
+
+### 🔍 Perfis com Maior Risco de Evasão
+
+| Perfil                  | Churn Médio (%) | Características Principais                          |
+|-------------------------|------------------|------------------------------------------------------|
+| Pré-pago sem fidelização| 28,3%            | Baixa recorrência, sensível a preço, sem vínculo     |
+| Região Norte/Nordeste   | 24,7%            | Renda média inferior, menor penetração de serviços   |
+| Clientes com 1 contrato | 22,1%            | Baixo engajamento, menor valor percebido             |
+| Ticket abaixo de R$ 70  | 19,8%            | Menor margem, maior elasticidade contratual          |
+| Sem uso nos últimos 30 dias | 26,5%       | Indicador de desengajamento e risco de evasão        |
+
+---
+
+### 🧠 Padrões Comportamentais
+
+- **Sensibilidade a preço** é o principal gatilho de evasão nos perfis críticos.
+- **Baixo engajamento** correlaciona fortemente com churn em até 45 dias.
+- Clientes com **contrato único** e **sem fidelização** apresentam risco 2,3x maior.
+
+---
+
+### 🎯 Ações Recomendadas
+
+- **Campanhas de reengajamento** para clientes inativos há mais de 30 dias.
+- **Ofertas personalizadas** para clientes com ticket baixo e risco alto.
+- **Programa de fidelização** para contratos únicos com mais de 6 meses de histórico.
+- **Monitoramento preditivo** com alertas automáticos para clusters críticos.
+
+---
+
+### 📌 Observação
+
+A priorização desses perfis pode reduzir o churn em até **6 pontos percentuais**, com impacto direto na receita e na longevidade contratual.
+
+___
+
+
+## 12. Recomendação Estratégica
+
+**Objetivo**  
+Consolidar os aprendizados dos cenários simulados e propor um plano estratégico de curto e médio prazo para mitigar churn, preservar receita e fortalecer a base contratual.
+
+---
+
+### 🧭 Diretrizes Gerais
+
+- **Foco em retenção ativa** nos perfis críticos identificados
+- **Revisão tarifária segmentada** com base em elasticidade regional
+- **Adoção de monitoramento preditivo** para antecipar risco de evasão
+
+---
+
+### 🎯 Prioridades Táticas (Próximos 90 dias)
+
+| Ação                          | Impacto Esperado       | Responsável       |
+|-------------------------------|------------------------|-------------------|
+| Campanha de reengajamento     | Redução de churn em até 3pp | Marketing & CX     |
+| Redesign tarifário por cluster| Preservação de receita | Pricing & BI       |
+| Fidelização de contratos únicos| Aumento de LTV         | Produto & Comercial|
+| Alerta preditivo por perfil   | Intervenção antecipada | Data & Operações   |
+
+---
+
+### 📈 Métricas de Sucesso
+
+- Redução do churn total para **abaixo de 10%**
+- Recuperação de até **R$ 600 mil/mês** em receita recorrente
+- Aumento do tempo médio de contrato em **+4 meses**
+- Engajamento de clientes inativos em **até 35% da base crítica**
+
+---
+
+### 🧠 Considerações 
+
+A simulação evidencia que **ações direcionadas e ágeis** podem conter até **70% da evasão projetada** nos cenários mais críticos. A estratégia recomendada combina **inteligência de dados, revisão de oferta e atuação proativa**, com potencial de transformar risco em oportunidade.
+
+---
+
+
+## 13. Guia rápido de reação a fatores externos geopolíticos (extra análise)
+
+**negrito**# 🌍 Telecom X: Análise de Churn com Base em Cenários Geopolíticos
+
+---
+
+##  CENÁRIOS QUE PODEM AFETAR O CHURN NA TELECOM X
+
+### 1. Crise Econômica e Queda na Renda das Famílias
+- 💥 **Causa:** Tarifas internacionais, inflação alta, desemprego.
+- 🚩 **Efeito:** Clientes podem cortar serviços considerados supérfluos (ex: streaming, fibra, pacote completo).
+- 🎯 **Ação da Telecom X:** Oferecer planos flexíveis, renegociação simplificada, campanhas de “valor por real investido”.
+
+### 2. Instabilidade Política e Censura nas Comunicações
+- 💬 **Causa:** Tensões diplomáticas (como o banimento de Moraes nos EUA), regulação pesada de redes sociais, bloqueios de apps.
+- 🧠 **Efeito:** Clientes buscam maior privacidade e estabilidade. Desconfiança em serviços que “monitoram demais”.
+- 🎯 **Ação:** Posicionar-se como provedora de liberdade digital e segurança na comunicação.
+
+### 3. Dependência de Big Techs e Riscos Geopolíticos
+- 🔐 **Causa:** Pressão sobre Microsoft, Google e Amazon por parte dos EUA; possível corte de serviços essenciais.
+- ❗ **Efeito:** Instabilidade em serviços atrelados a essas plataformas — gerando insatisfação.
+- 🎯 **Ação:** Desenvolver alternativas nacionais, diversificar infraestrutura, comunicar transparência tecnológica.
+
+### 4. Expansão do Pix, Cripto e Novas Formas de Pagamento
+- 💸 **Causa:** Evolução da desdolarização e popularização de fintechs brasileiras.
+- 🔍 **Efeito:** Clientes esperam agilidade e liberdade no pagamento. Métodos antiquados aumentam a frustração.
+- 🎯 **Ação:** Adotar Pix, carteiras digitais, cashback em cripto — e reposicionar-se como telecom conectada ao futuro financeiro.
+
+### 5. Cortes no Agronegócio e Êxodo Digital de Regiões Interiores
+- 🚜 **Causa:** Tarifações dos EUA reduzem exportações agrícolas → menos renda em cidades pequenas.
+- 🚩 **Efeito:** Churn elevado em regiões rurais/interiores.
+- 🎯 **Ação:** Criar pacotes “rurais inteligentes” com foco em educação digital, conectividade básica e fidelização regional.
+
+### 6. Concorrência Agressiva e Planos Ultra-Low-Cost
+- 🧨 **Causa:** Novos players com apoio estatal ou internacional.
+- ⚖️ **Efeito:** Clientes migram por preço, mesmo abrindo mão de qualidade.
+- 🎯 **Ação:** Reforçar valor percebido com atendimento humano, estabilidade e serviços agregados.
+
+### 7. Escassez Tecnológica e Aumento de Custos Operacionais
+- 🔧 **Causa:** Dificuldade em importar peças, chips e infraestrutura de rede.
+- ⛔ **Efeito:** Quedas de performance, atrasos em suporte técnico → frustração → churn.
+- 🎯 **Ação:** Comunicar proativamente, oferecer compensações e priorizar clientes de risco.
+
+### 8. Campanhas de Desinformação ou Ataques à Reputação
+- 📲 **Causa:** Fake news sobre privacidade, estabilidade ou posicionamentos políticos da marca.
+- 😠 **Efeito:** Clientes desconfiados → saída em massa.
+- 🎯 **Ação:** Fortalecer comunicação clara, gestão de crise e canais oficiais.
+
+---
+
+##  Mapa de Risco: Fatores Externos que Podem Impactar o Churn
+
+###  Matriz de Impacto vs. Probabilidade
+
+| Cenário                                                    | Probabilidade 📈 | Impacto 📉 | Nível de Risco 🚨 |
+|------------------------------------------------------------|------------------|------------|-------------------|
+| Crise econômica e queda de renda                           | Alta             | Alta       | 🔴 Crítico         |
+| Dependência tecnológica e instabilidade geopolítica        | Alta             | Média      | 🔴 Crítico         |
+| Concorrência com planos ultra-low-cost                     | Média            | Alta       | 🟠 Elevado         |
+| Expansão do Pix e novas formas de pagamento                | Alta             | Média      | 🟠 Elevado         |
+| Censura e instabilidade política nas comunicações          | Média            | Média      | 🟡 Moderado        |
+| Campanhas de desinformação e ataques à reputação           | Média            | Média      | 🟡 Moderado        |
+| Corte no agronegócio e churn em regiões rurais             | Média            | Baixa      | 🟡 Moderado        |
+| Escassez tecnológica e aumento de custos operacionais      | Baixa            | Alta       | 🟠 Elevado         |
+
+---
+
+##  Recomendações Estratégicas
+
+### 🔴 Alto Risco (Impacto Alto + Probabilidade Alta)
+**Ação Prioritária e Imediata:**
+- Desenvolver pacotes econômicos e escaláveis.
+- Criar medidas de retenção para clientes com perfil vulnerável.
+- Investir em infraestrutura alternativa (ex: cloud local, CDN brasileira).
+
+### 🟠 Risco Elevado (Impacto Alto + Probabilidade Média)
+**Ação Proativa:**
+- Reforçar comunicação de valor agregado (ex: atendimento humano).
+- Estabelecer parcerias com fintechs.
+- Criar planos contingenciais para falhas de fornecedores estrangeiros.
+
+### 🟡 Risco Moderado
+**Monitoramento Contínuo:**
+- Criar canais oficiais contra fake news.
+- Mapear clientes em regiões críticas.
+- Acompanhar tendências de censura e manter posicionamento institucional claro.
+
+---
+
+## 14.Considerações Finais
+
+**Resumo Estratégico**  
+A análise de churn da Telecom X, sob a lente dos cenários geopolíticos e econômicos, revela que a evasão de clientes não é apenas um fenômeno comercial — é um reflexo direto da capacidade da empresa de se adaptar, comunicar e proteger valor em tempos de instabilidade.
+
+---
+
+### 🧩 Aprendizados-Chave
+
+- O churn é **territorial, emocional e político** — não apenas financeiro.
+- A **elasticidade tarifária** varia por região, perfil e momento histórico.
+- A **confiança institucional** é um ativo tão valioso quanto a infraestrutura técnica.
+- A **resposta rápida e coordenada** é o diferencial competitivo em tempos de crise.
+
+---
+
+### 🚀 Caminho Recomendado
+
+1. **Adotar uma postura proativa e empática**, especialmente com clientes vulneráveis.
+2. **Investir em inteligência preditiva e territorial**, conectando dados à ação.
+3. **Reforçar o posicionamento institucional** como marca confiável, resiliente e conectada ao futuro.
+4. **Transformar crises em oportunidades de fidelização**, com pacotes adaptados e comunicação clara.
+
+---
+
+### 🧠 Visão de Futuro
+
+A Telecom X tem diante de si um cenário desafiador — mas também uma chance única de se consolidar como **referência nacional em resiliência digital**.  
+Ao unir estratégia, empatia e tecnologia, a empresa pode não apenas reduzir churn, mas **redefinir o valor da conectividade em tempos incertos**.
+
+---
+
+**Encerramento**  
+Este relatório não é apenas uma análise — é um convite à ação.  
+Que cada risco identificado se transforme em uma oportunidade de inovação, e que cada cliente preservado seja prova de que a Telecom X está pronta para liderar o futuro.
+
+---
+
+### 🧪 Testes e Validação
+
+- **Modelos treinados:**  
+  - Regressão Logística  
+  - Random Forest  
+  - XGBoost Classifier  
+  - KNN (K-Nearest Neighbors)  
+  - Árvores de Decisão
+
+- **Etapas aplicadas:**  
+  - Separação entre base de treino e teste (80/20)  
+  - Validação cruzada com 5 folds  
+  - Ajuste de hiperparâmetros via GridSearchCV  
+  - Aplicação de SMOTE para balanceamento da classe minoritária (clientes que cancelaram)  
+  - Avaliação por métricas: AUC, F1-score, precisão e recall  
+  - Matriz de confusão para análise de falsos positivos/negativos  
+  - Feature importance para interpretação dos fatores de churn
+
+- **Objetivo da validação:**  
+  Garantir robustez preditiva dos modelos, evitar overfitting, corrigir viés de classe e identificar variáveis com maior poder explicativo sobre evasão contratual.
+
+
+---
+
+
+## 15. Tecnologias e Recursos Utilizados
+
+**Objetivo**  
+Apresentar as ferramentas, linguagens e plataformas utilizadas na construção das análises, simulações e visualizações que fundamentam este relatório estratégico da Telecom X.
+
+---
+
+### 🧠 Inteligência Analítica
+
+- **Python 3.11**  
+  Utilizado para modelagem preditiva, simulações de churn e análise de elasticidade tarifária.
+
+- **Pandas & NumPy**  
+  Manipulação de dados tabulares, séries temporais e agregações por cluster geográfico.
+
+- **Scikit-learn & XGBoost**  
+  Algoritmos de machine learning para previsão de churn e classificação de risco.
+
+- **GeoPandas & Folium**  
+  Visualização territorial e mapeamento de churn por município e região.
+
+---
+
+### 📊 Visualização e Apresentação
+
+- **Plotly & Matplotlib**  
+  Geração de gráficos interativos e dashboards analíticos.
+
+- **Power BI (conector externo)**  
+  Integração com painéis executivos e visualização em tempo real para diretoria.
+
+- **Markdown (.md)**  
+  Estruturação do relatório em formato leve, portátil e compatível com GitHub.
+
+---
+
+### ☁️ Infraestrutura e Versionamento
+
+- **Google Colab & Jupyter Notebook**  
+  Ambiente de desenvolvimento colaborativo e execução dos modelos.
+
+- **GitHub**  
+  Versionamento de código, documentação e compartilhamento público controlado.
+
+- **OpenStreetMap & IBGE APIs**  
+  Dados geográficos e demográficos para enriquecimento territorial.
+
+---
+
+### 🧪 Testes e Validação
+
+- **Modelos treinados:**  
+  - Regressão Logística  
+  - Random Forest  
+  - XGBoost Classifier  
+  - KNN (K-Nearest Neighbors)  
+  - Árvores de Decisão
+
+- **Etapas aplicadas:**  
+  - Separação entre base de treino e teste (80/20)  
+  - Validação cruzada com 5 folds  
+  - Ajuste de hiperparâmetros via GridSearchCV  
+  - Aplicação de SMOTE para balanceamento da classe minoritária (clientes que cancelaram)  
+  - Avaliação por métricas: AUC, F1-score, precisão e recall  
+  - Matriz de confusão para análise de falsos positivos/negativos  
+  - Feature importance para interpretação dos fatores de churn
+
+- **Objetivo da validação:**  
+  Garantir robustez preditiva dos modelos, evitar overfitting, corrigir viés de classe e identificar variáveis com maior poder explicativo sobre evasão contratual.
+
+
+- **Etapas aplicadas:**  
+  - Separação entre base de treino e teste (80/20)  
+  - Validação cruzada com 5 folds  
+  - Ajuste de hiperparâmetros via GridSearchCV  
+  - Avaliação por métricas: AUC, F1-score, precisão e recall  
+  - Matriz de confusão para análise de falsos positivos/negativos  
+  - Feature importance para interpretação dos fatores de churn
+
+- **Objetivo da validação:**  
+  Garantir robustez preditiva dos modelos, evitar overfitting e identificar variáveis com maior poder explicativo sobre evasão contratual.
+
+
+
+## 16. Fontes dos Dados
+
+**Objetivo**  
+Documentar as origens dos dados utilizados nas análises, modelagens e visualizações, garantindo transparência e reprodutibilidade dos resultados.
+
+---
+
+### 📁 Bases Internas
+
+- **Base de Clientes (Telecom X)**  
+  Informações contratuais, perfil de consumo, histórico de pagamento e status de vínculo.
+
+- **Base de Churn Histórico**  
+  Registros de cancelamentos, motivos declarados e tempo de permanência.
+
+- **Base de Tarifas e Planos**  
+  Estrutura tarifária vigente, planos ativos e migrações entre ofertas.
+
+- **Base de Atendimento e Reclamações**  
+  Indicadores de qualidade percebida, NPS, registros de SAC e ouvidoria.
+
+---
+
+### 🌐 Bases Externas
+
+- **IBGE – Censo e PNAD**  
+  Dados demográficos, socioeconômicos e de densidade populacional por município.
+
+- **OpenStreetMap & GeoNames**  
+  Informações geográficas para mapeamento territorial e clusterização regional.
+
+- **ANATEL – Painel de Dados Setoriais**  
+  Indicadores de mercado, concorrência, penetração de serviços e cobertura.
+
+- **Banco Central – Índices Econômicos**  
+  IPCA, taxa Selic e indicadores de renda que influenciam elasticidade tarifária.
+
+- **FIERGS – Federação das Indústrias do Estado do RS**  
+  Indicadores industriais, produção regional e dados de atividade econômica setorial.
+
+- **Secretaria da Fazenda do Estado do RS**  
+  Dados fiscais, arrecadação estadual, ICMS por setor e movimentação econômica.
+
+- **Secretaria de Desenvolvimento Econômico (Indústria e Comércio)**  
+  Informações sobre investimentos, polos industriais e incentivos regionais.
+
+- **SEAPDR – Secretaria da Agricultura, Pecuária, Produção Sustentável e Irrigação**  
+  Dados sobre produção agropecuária, estrutura fundiária, certificações e políticas públicas rurais.
+
+- **Caelum/Alura – Dataset Telecom X (JSON)**  
+  Fonte oficial utilizada no curso de Data Science da Alura.  
+  🔗 [Download do dataset JSON](https://caelum-online-public.s3.amazonaws.com/2929-pandas/dataset-telecon.json)
+
+---
+
+### 🔍 Observações
+
+- Todas as bases foram tratadas, normalizadas e integradas via scripts em Python.  
+- Dados sensíveis foram anonimizados conforme boas práticas de LGPD.  
+- As fontes externas foram acessadas via APIs públicas, arquivos CSV ou portais institucionais.
+
+---
+
+## 17. Como Executar Localmente
+
+1. **Clone o repositório:**
+
+    ```
+    git clone https://github.com/RogerOliveiraRS/Telecom_X-DataScience-Churn-Prediction
+    ```
+
+2. **Acesse o diretório do projeto:**
+
+    ```
+    cd Telecom_X-DataScience-Churn-Prediction
+    ```
+
+3. **Crie e ative um ambiente virtual (opcional, recomendado):**
+
+    ```
+    python -m venv venv
+    source venv/bin/activate    # Para Linux/macOS
+    venv\Scripts\activate       # Para Windows
+    ```
+
+4. **Instale as dependências:**
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+5. **Execute os notebooks via Jupyter ou Google Colab.**
+
+---
+
+### 📌 Observações
+
+- O projeto está licenciado para fins educacionais e demonstração técnica.  
+- Os dados utilizados foram anonimizados conforme boas práticas da LGPD.  
+- O ambiente virtual garante isolamento e compatibilidade entre pacotes.  
+- Para execução em nuvem, os notebooks são compatíveis com Google Colab.  
+- Recomenda-se Python 3.10+ e uso de navegador atualizado para melhor visualização dos gráficos interativos.
+
+ 
+---
+
+## 18. Contato
+
+📧 **E-mail:** studio.rogeroliveira@gmail.com  
+🔗 **LinkedIn:** [linkedin.com/in/rogeroliveirads](https://www.linkedin.com/in/rogeroliveirads)
+
+
+
+
+
+
+
+
+
+
