@@ -839,6 +839,8 @@ Priorizar cenários com maior risco de evasão para aplicação imediata de estr
 
 ---
 
+<br><br>
+
 
 ## 11. Perfis Críticos Recorrentes
 
@@ -886,6 +888,8 @@ A priorização desses perfis pode reduzir o churn em até **6 pontos percentuai
 
 ---
 
+<br><br>
+
 
 ## 12. Recomendações Estratégicas
 
@@ -931,8 +935,13 @@ A simulação evidencia que **ações direcionadas e ágeis** podem conter até 
 
 ---
 
+<br><br>
+
+
+
 
 ## 13. Guia rápido de reação a fatores externos geopolíticos (extra análise)
+![Geopolítica](https://github.com/RogerOliveiraRS/Telecom_X-DataScience-Churn-Prediction/blob/main/Imagens/Geopolitica.jpg)
 
 **negrito**# 🌍 Telecom X: Análise de Churn com Base em Cenários Geopolíticos
 
