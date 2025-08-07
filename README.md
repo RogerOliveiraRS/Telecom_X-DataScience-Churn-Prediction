@@ -992,7 +992,7 @@ A simulação evidencia que **ações direcionadas e ágeis** podem conter até 
 
 ---
 
-## 14.Considerações Finais
+## 14. Considerações Finais
 
 **Resumo Estratégico**  
 A análise de churn da Telecom X, sob a lente dos cenários geopolíticos e econômicos, revela que a evasão de clientes não é apenas um fenômeno comercial — é um reflexo direto da capacidade da empresa de se adaptar, comunicar e proteger valor em tempos de instabilidade.
