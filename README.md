@@ -38,7 +38,7 @@ Com base em dados reais de consumo e relacionamento, a empresa adota ferramentas
 - [11. Perfis Críticos Recorrentes](#11-perfis-críticos-recorrentes)
 - [12. Recomendação Estratégica](#12-recomendação-estratégica)
 - [13. Guia Rápido de Reação a Fatores Externos Geopolíticos (Extra Análise)](#13-guia-rápido-de-reação-a-fatores-externos-geopolíticos-extra-análise)
-- [14. Considerações Finais](#14-considerações-finais)
+- [14. Recomendações Estratégicas](#14-recomendações-estratégicas)
 - [15. Tecnologias e Recursos Utilizados na Análise](#15-tecnologias-e-recursos-utilizados-na-análise)
 - [16. Fontes dos Dados](#16-fontes-dos-dados)
 - [17. Guia para Acessar Código e Notebook no GitHub](#17-guia-para-acessar-código-e-notebook-no-github)
@@ -855,7 +855,7 @@ A priorização desses perfis pode reduzir o churn em até **6 pontos percentuai
 ---
 
 
-## 12. Recomendação Estratégica
+## 12. Recomendações Estratégicas
 
 **Objetivo**  
 Consolidar os aprendizados dos cenários simulados e propor um plano estratégico de curto e médio prazo para mitigar churn, preservar receita e fortalecer a base contratual.
