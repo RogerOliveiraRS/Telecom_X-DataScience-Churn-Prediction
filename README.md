@@ -1,4 +1,4 @@
-<br>
+<br><br>
 # Previsoes-com-Machine-Learning
 ![Telecom X](https://github.com/RogerOliveiraRS/Telecom_X-DataScience-Churn-Prediction/blob/main/Imagens/Telecom%20X_1.png)
 
@@ -6,10 +6,10 @@
 
 ---
 
+<br><br>
+#  Apresentação da Empresa
 
-## 🏢 Apresentação da Empresa
 
-![Imagem Institucional](CAMINHO_DA_IMAGEM_AQUI)
 
 A **Telecom X** é uma operadora de telecomunicações fictícia, com atuação no Rio Grande do Sul, oferecendo soluções de conectividade, segurança digital e serviços integrados para clientes residenciais e empresariais.
 
@@ -57,6 +57,10 @@ Além disso, mudanças regulatórias e potenciais choques tarifários exigem uma
 
 Este estudo foi desenvolvido com base em dados reais anonimizados, projeções macroeconômicas e modelagem estatística, buscando representar com fidelidade os desafios enfrentados pela organização.
 
+---
+
+<br><br>
+
 
 ## 2. Objetivo da Simulação
 
@@ -64,11 +68,15 @@ Este documento objetiva apresentar  os resultados de simulações estratégicas 
 
 ---
 
+<br><br>
+
 ## 3. Metodologia Geral
 
 A análise dos cenários foi conduzida com base em técnicas de modelagem preditiva e segmentação comportamental, combinando dados sintéticos de clientes com variações parametrizadas de risco. **Machine Learning, treinamento de diferentes modelos com refinamento dos resultados foram utilizados.**O objetivo da metodologia é oferecer simulações realistas e operacionalizáveis, que permitam à Telecom X antecipar impactos e reagir com agilidade frente a eventos críticos.
 
 ---
+
+<br><br>
 
 ### 🔧 Eixos Técnicos Utilizados
 
@@ -90,6 +98,8 @@ A análise dos cenários foi conduzida com base em técnicas de modelagem predit
 
 ---
 
+<br><br>
+
 ### 📝 Nota Metodológica
 
 As simulações apresentadas ao longo deste estudo foram construídas a partir de uma base sintética representativa dos clientes da Telecom X, calibrada com variações parametrizadas de risco e comportamento. As predições originais formuladas no desafio base — incluindo estimativas de churn, projeções de faturamento e sensibilidade a choques externos — foram utilizadas como ponto de partida para a construção dos seis cenários.
@@ -106,9 +116,12 @@ Essa abordagem garante que os cenários não apenas tenham validade técnica, ma
 
 ---
 
+<br><br>
+
 ## 4. Modelagem de Churn
 
 A modelagem de churn teve como objetivo prever a probabilidade de cancelamento por parte dos clientes, permitindo à empresa antecipar perdas de receita e direcionar ações de retenção. O processo foi conduzido com rigor técnico e envolveu as seguintes etapas:
+<br><br>
 
 ### 🔍 4.1 Pré-processamento dos Dados
 
@@ -198,6 +211,8 @@ A modelagem de churn não apenas forneceu previsões confiáveis, mas também in
 
 ---
 
+<br><br>
+
 ## 5. Impacto Financeiro — Churn e Faturamento
 
 
@@ -286,6 +301,8 @@ O panorama traçado aponta para uma necessidade urgente de **ajuste comercial e 
 
 ---
 
+<br><br>
+
 
 ## 6. Caracterização da Base de Clientes — Perfis e Vulnerabilidades
 
@@ -343,6 +360,7 @@ A base também apresenta variação relevante nos seguintes indicadores:
 
 
 ---
+<br><br>
 
 ## 7. Simulações dos Seis Cenários
 
@@ -353,6 +371,8 @@ O objetivo das simulações é mensurar não apenas o risco de evasão, mas tamb
 As simulações servem como ferramenta fundamental para transformar dados preditivos em inteligência acionável, conectando análises quantitativas com cenários operacionais realistas.
 
 ---
+<br><br>
+![Tarifas 2](https://github.com/RogerOliveiraRS/Telecom_X-DataScience-Churn-Prediction/blob/main/Imagens/Tarifas_2.jpg)
 
 ## 7.1 Impacto Econômico Regional — Tarifas de 50% sobre exportações do RS para os EUA
 
@@ -405,6 +425,7 @@ A tarifa de 50% sobre exportações do RS para os EUA afeta diretamente cadeias 
 
 
 ---
+<br><br>
 
 ## 7.2 Crise Econômica Generalizada
 
@@ -459,6 +480,7 @@ A crise atinge transversalmente todas as faixas de renda, com destaque para fam�
 
 
 ---
+<br><br>
 
 
 ## 7.3 Instabilidade Tecnológica
@@ -512,6 +534,7 @@ A instabilidade tecnológica gera frustração imediata entre usuários dependen
  
 
 ---
+<br><br>
 
 
 ## 7.4 Concorrência Agressiva
@@ -567,6 +590,7 @@ Clientes com contratos frágeis e baixa vinculação emocional demonstram alta p
 
 
 ---
+<br><br>
 
 
 ## 7.5 Regulamentação Governamental
@@ -619,6 +643,7 @@ Clientes que utilizam serviços extras como parte do bundle contratado apresenta
 
 
 ---
+<br><br>
 
 ## 7.6 Sanções Tecnológicas (EUA)
 
@@ -670,6 +695,7 @@ A quebra na cadeia de fornecimento de tecnologia afeta diretamente a qualidade d
 
 
 ---
+<br><br>
 
 ## 8. Análise Consolidada dos Cenários
 
@@ -699,6 +725,9 @@ Apresentar uma visão comparativa e integrada dos cenários avaliados, destacand
 - Monitorar indicadores em tempo real para reagir rapidamente às variações de mercado.
 
 [🔼 Voltar ao Índice](#índice)
+
+---
+<br><br>
 
 
 ## 9. Projeções Macroeconômicas e Choque Indireto de Tarifação
