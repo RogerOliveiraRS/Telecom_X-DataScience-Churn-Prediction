@@ -41,7 +41,7 @@ Com base em dados reais de consumo e relacionamento, a empresa adota ferramentas
 - [14. Considerações Finais](#14-considerações-finais)
 - [15. Tecnologias e Recursos Utilizados](#15-tecnologias-e-recursos-utilizados)
 - [16. Fontes dos Dados](#16-fontes-dos-dados)
-- [17. Guia para Acessar Código e Notebook no GitHub](#17-guia-para-acessar-código-e-notebook-no-github)
+- [17.Como acessar Localmente](#17-como-acessar-localmente)
 - [18. Contato](#18-contato)
 
 
@@ -1215,7 +1215,7 @@ Documentar as origens dos dados utilizados nas análises, modelagens e visualiza
 
 ---
 
-## 17. Como Executar Localmente
+## 17. Como Acessar Localmente
 
 1. **Clone o repositório:**
 
