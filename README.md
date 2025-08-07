@@ -10,10 +10,10 @@
 #  Apresentação da Empresa
 
 
-<span style="font-size: 1.5em;">
-A **Telecom X** é uma operadora de telecomunicações fictícia, com atuação no Rio Grande do Sul, oferecendo soluções de conectividade, segurança digital e serviços integrados para clientes residenciais e empresariais.
+<span style="font-size: 1.5em;">A **Telecom X** é uma operadora de telecomunicações fictícia, com atuação no Rio Grande do Sul, oferecendo soluções de conectividade, segurança digital e serviços integrados para clientes residenciais e empresariais.</span>
+<br><br>
 
-Com base em dados reais de consumo e relacionamento, a empresa adota ferramentas de inteligência preditiva e modelagem comportamental para antecipar riscos e fortalecer a fidelização da base de clientes.</span>
+<span style="font-size: 1.5em;">Com base em dados reais de consumo e relacionamento, a empresa adota ferramentas de inteligência preditiva e modelagem comportamental para antecipar riscos e fortalecer a fidelização da base de clientes.<br><br>
 
 ---
 
