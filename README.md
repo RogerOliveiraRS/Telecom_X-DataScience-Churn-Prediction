@@ -1,5 +1,6 @@
+<br><br>
 # Previsoes-com-Machine-Learning
-![Logo Telecom X](CAMINHO_DA_IMAGEM_AQUI)
+![Telecom X](https://github.com/RogerOliveiraRS/Telecom_X-DataScience-Churn-Prediction/blob/main/Imagens/Telecom%20X_4.png)
 
 # 📡 Análise Executiva – Telecom X
 
