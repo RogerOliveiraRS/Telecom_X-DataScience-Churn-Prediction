@@ -787,6 +787,8 @@ A retração econômica gera efeitos indiretos sobre o churn:
 
  ---
 
+ <br><br>
+
  ## 10. Comparativo de Faturamento e Churn
 
 **Objetivo**  
