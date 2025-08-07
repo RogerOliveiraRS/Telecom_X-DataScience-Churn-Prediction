@@ -1316,6 +1316,8 @@ Documentar as origens dos dados utilizados nas análises, modelagens e visualiza
 
 ## 18. Contato
 
+![Cliente](https://github.com/RogerOliveiraRS/Telecom_X-DataScience-Churn-Prediction/blob/main/Imagens/Cliente.jpg)
+
 📧 **E-mail:** studio.rogeroliveira@gmail.com  
 🔗 **LinkedIn:** [linkedin.com/in/rogeroliveirads](https://www.linkedin.com/in/rogeroliveirads)
 
