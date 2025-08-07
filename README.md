@@ -100,6 +100,9 @@ A calibração dos dados considerou:
 
 Essa abordagem garante que os cenários não apenas tenham validade técnica, mas também relevância prática para a tomada de decisão estratégica da Telecom X.
 
+
+[🔼 Voltar ao Índice](#índice)
+
 ---
 
 ## 4. Modelagem de Churn
