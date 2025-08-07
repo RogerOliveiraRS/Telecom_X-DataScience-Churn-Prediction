@@ -694,6 +694,8 @@ Apresentar uma visão comparativa e integrada dos cenários avaliados, destacand
 - Mitigar riscos do cenário pessimista via ajustes operacionais e diversificação de canais.
 - Monitorar indicadores em tempo real para reagir rapidamente às variações de mercado.
 
+[🔼 Voltar ao Índice](#índice)
+
 
 ## 9. Projeções Macroeconômicas e Choque Indireto de Tarifação
 
@@ -797,6 +799,9 @@ Priorizar cenários com maior risco de evasão para aplicação imediata de estr
 - Redesign tarifário regional
 - Monitoramento preditivo por cluster
 
+
+[🔼 Voltar ao Índice](#índice)
+
 ---
 
 
@@ -885,6 +890,9 @@ Consolidar os aprendizados dos cenários simulados e propor um plano estratégic
 ### 🧠 Considerações 
 
 A simulação evidencia que **ações direcionadas e ágeis** podem conter até **70% da evasão projetada** nos cenários mais críticos. A estratégia recomendada combina **inteligência de dados, revisão de oferta e atuação proativa**, com potencial de transformar risco em oportunidade.
+
+
+[🔼 Voltar ao Índice](#índice)
 
 ---
 
@@ -1244,7 +1252,6 @@ Documentar as origens dos dados utilizados nas análises, modelagens e visualiza
 - Para execução em nuvem, os notebooks são compatíveis com Google Colab.  
 - Recomenda-se Python 3.10+ e uso de navegador atualizado para melhor visualização dos gráficos interativos.
 
-[🔼 Voltar ao Índice](#índice)
 
  
 ---
