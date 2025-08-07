@@ -1035,7 +1035,11 @@ A simulação evidencia que **ações direcionadas e ágeis** podem conter até 
 
 <br><br>
 
-## #14. Considerações Finais
+
+
+## 14. Considerações Finais
+
+![Considerações Finais](https://github.com/RogerOliveiraRS/Telecom_X-DataScience-Churn-Prediction/blob/main/Imagens/Considerações_1.png)
 
 **Resumo Estratégico**  
 A análise de churn da Telecom X, sob a lente dos cenários geopolíticos e econômicos, revela que a evasão de clientes não é apenas um fenômeno comercial — é um reflexo direto da capacidade da empresa de se adaptar, comunicar e proteger valor em tempos de instabilidade.
@@ -1100,6 +1104,8 @@ Que cada risco identificado se transforme em uma oportunidade de inovação, e q
 
 
 ---
+
+<br><br>
 
 
 ## 15. Tecnologias e Recursos Utilizados
@@ -1190,6 +1196,8 @@ Apresentar as ferramentas, linguagens e plataformas utilizadas na construção d
 
 ---
 
+<br><br>
+
 
 
 ## 16. Fontes dos Dados
@@ -1258,6 +1266,8 @@ Documentar as origens dos dados utilizados nas análises, modelagens e visualiza
 
 ---
 
+<br><br>
+
 ## 17. Como Acessar Localmente
 
 1. **Clone o repositório:**
@@ -1302,6 +1312,8 @@ Documentar as origens dos dados utilizados nas análises, modelagens e visualiza
  
 ---
 
+<br><br>
+
 ## 18. Contato
 
 📧 **E-mail:** studio.rogeroliveira@gmail.com  
@@ -1309,6 +1321,8 @@ Documentar as origens dos dados utilizados nas análises, modelagens e visualiza
 
 
 [🔼 Voltar ao Índice](#índice)
+
+
 
 
 
