@@ -23,7 +23,7 @@ Com base em dados reais de consumo e relacionamento, a empresa adota ferramentas
 - [2. Objetivo da Simulação](#2-objetivo-da-simulação)
 - [3. Metodologia Geral](#3-metodologia-geral)
 - [4. Modelagem de Churn](#4-modelagem-de-churn)
-- [5. Cálculo de Impacto Financeiro](#5-cálculo-de-impacto-financeiro)
+- [5. Impacto Financeiro — Churn e Faturamento](#5-impacto-financeiro--churn-e-faturamento)
 - [6. Caracterização dos Clientes](#6-caracterização-dos-clientes)
 - [7. Simulações dos Seis Cenários](#7-simulações-dos-seis-cenários)  
   &emsp;• [7.1 Impacto Econômico Regional — Tarifas de 50% sobre exportações do RS para os EUA](#71-impacto-econômico-regional--tarifas-de-50-sobre-exportações-do-rs-para-os-eua)  
