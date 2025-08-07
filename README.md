@@ -24,7 +24,7 @@ Com base em dados reais de consumo e relacionamento, a empresa adota ferramentas
 - [3. Metodologia Geral](#3-metodologia-geral)
 - [4. Modelagem de Churn](#4-modelagem-de-churn)
 - [5. Impacto Financeiro — Churn e Faturamento](#5-impacto-financeiro--churn-e-faturamento)
-- [6. Caracterização dos Clientes](#6-caracterização-dos-clientes)
+- [6. Caracterização da Base de Clientes — Perfis e Vulnerabilidades](#6-caracterização-da-base-de-clientes--perfis-e-vulnerabilidades)
 - [7. Simulações dos Seis Cenários](#7-simulações-dos-seis-cenários)  
   &emsp;• [7.1 Impacto Econômico Regional — Tarifas de 50% sobre exportações do RS para os EUA](#71-impacto-econômico-regional--tarifas-de-50-sobre-exportações-do-rs-para-os-eua)  
   &emsp;• [7.2 Crise Econômica Generalizada](#72-crise-econômica-generalizada)  
