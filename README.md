@@ -36,7 +36,7 @@ Com base em dados reais de consumo e relacionamento, a empresa adota ferramentas
 - [9. Projeções Macroeconômicas e Choque Indireto de Tarifação](#9-projeções-macroeconômicas-e-choque-indireto-de-tarifação)
 - [10. Comparativo de Faturamento e Churn](#10-comparativo-de-faturamento-e-churn)
 - [11. Perfis Críticos Recorrentes](#11-perfis-críticos-recorrentes)
-- [12. Recomendação Estratégica](#12-recomendação-estratégica)
+- [12. Recomendações Estratégicas](#12-recomendações-estratégicas)
 - [13. Guia Rápido de Reação a Fatores Externos Geopolíticos (Extra Análise)](#13-guia-rápido-de-reação-a-fatores-externos-geopolíticos-extra-análise)
 - [14. Recomendações Estratégicas](#14-recomendações-estratégicas)
 - [15. Tecnologias e Recursos Utilizados na Análise](#15-tecnologias-e-recursos-utilizados-na-análise)
