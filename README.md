@@ -539,6 +539,8 @@ A instabilidade tecnológica gera frustração imediata entre usuários dependen
 
 ## 7.4 Concorrência Agressiva
 
+![Operadora Chinesa](https://github.com/RogerOliveiraRS/Telecom_X-DataScience-Churn-Prediction/blob/main/Imagens/Operadora%20chinesa.png)
+
 ### 🎯 Objetivo da Simulação
 
 Modelar os impactos de campanhas comerciais altamente agressivas por parte de concorrentes diretos da Telecom X Brasil, incluindo redução de preços, cashback, aumento de franquias e vantagens em bundling, visando entender o comportamento de churn competitivo.
@@ -1133,6 +1135,7 @@ Apresentar as ferramentas, linguagens e plataformas utilizadas na construção d
 
 ### 📊 Visualização e Apresentação
 
+
 - **Plotly & Matplotlib**  
   Geração de gráficos interativos e dashboards analíticos.
 
@@ -1159,6 +1162,8 @@ Apresentar as ferramentas, linguagens e plataformas utilizadas na construção d
 
 ### 🧪 Testes e Validação
 
+![Gráfico 4](https://github.com/RogerOliveiraRS/Telecom_X-DataScience-Churn-Prediction/blob/main/Imagens/grafico_4.png)
+
 - **Modelos treinados:**  
   - Regressão Logística  
   - Random Forest  
@@ -1174,6 +1179,8 @@ Apresentar as ferramentas, linguagens e plataformas utilizadas na construção d
   - Avaliação por métricas: AUC, F1-score, precisão e recall  
   - Matriz de confusão para análise de falsos positivos/negativos  
   - Feature importance para interpretação dos fatores de churn
+ 
+![Gráfico 2](https://github.com/RogerOliveiraRS/Telecom_X-DataScience-Churn-Prediction/blob/main/Imagens/grafico_2.png)
 
 - **Objetivo da validação:**  
   Garantir robustez preditiva dos modelos, evitar overfitting, corrigir viés de classe e identificar variáveis com maior poder explicativo sobre evasão contratual.
