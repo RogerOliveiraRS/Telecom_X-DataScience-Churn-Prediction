@@ -350,7 +350,7 @@ As simulações servem como ferramenta fundamental para transformar dados predit
 
 ---
 
-## 7.1 Impacto Econômico Regional — Tarifas RS–EUA
+## 7.1 Impacto Econômico Regional — Tarifas de 50% sobre exportações do RS para os EUA
 
 ### 🎯 Objetivo da Simulação
 
