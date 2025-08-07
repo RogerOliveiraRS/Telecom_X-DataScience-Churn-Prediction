@@ -38,7 +38,7 @@ Com base em dados reais de consumo e relacionamento, a empresa adota ferramentas
 - [11. Perfis Críticos Recorrentes](#11-perfis-críticos-recorrentes)
 - [12. Recomendações Estratégicas](#12-recomendações-estratégicas)
 - [13. Guia Rápido de Reação a Fatores Externos Geopolíticos (Extra Análise)](#13-guia-rápido-de-reação-a-fatores-externos-geopolíticos-extra-análise)
-- [14. Recomendações Estratégicas](#14-recomendações-estratégicas)
+- [14. Considerações Finais](#14-considações-finais)
 - [15. Tecnologias e Recursos Utilizados na Análise](#15-tecnologias-e-recursos-utilizados-na-análise)
 - [16. Fontes dos Dados](#16-fontes-dos-dados)
 - [17. Guia para Acessar Código e Notebook no GitHub](#17-guia-para-acessar-código-e-notebook-no-github)
