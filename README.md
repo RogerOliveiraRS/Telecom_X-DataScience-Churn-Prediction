@@ -1,5 +1,5 @@
 <br><br>
-# Previsoes-com-Machine-Learning
+# Previsões-com-Machine-Learning
 ![Telecom X](https://github.com/RogerOliveiraRS/Telecom_X-DataScience-Churn-Prediction/blob/main/Imagens/Telecom%20X_1.png)
 
 # 📡 Análise Executiva – Telecom X
