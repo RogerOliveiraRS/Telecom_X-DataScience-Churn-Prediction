@@ -378,7 +378,7 @@ As simulações servem como ferramenta fundamental para transformar dados predit
 
 ### 🎯 Objetivo da Simulação
 
-Estimar os efeitos indiretos das tarifas norte-americanas sobre as exportações gaúchas, especialmente nas regiões industriais, e mensurar o impacto resultante sobre o faturamento e o risco de evasão (churn) na base da Telecom X Brasil.
+Estimar os efeitos indiretos das tarifas norte-americanas sobre as exportações gaúchas, especialmente nas regiões industriais, e mensurar o impacto resultante sobre  o risco de evasão (churn) na base da Telecom X Brasil, assim como sobre o faturamento da empresa.
 
 ### 🧠 Hipótese de Choque Externo
 
