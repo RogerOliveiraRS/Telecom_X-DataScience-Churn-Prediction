@@ -1136,7 +1136,7 @@ Apresentar as ferramentas, linguagens e plataformas utilizadas na construção d
 ### 📊 Visualização e Apresentação
 
 
-- **Plotly & Matplotlib**  
+- **Matplotlib, Plotly & Seaborn**  
   Geração de gráficos interativos e dashboards analíticos.
 
 - **Power BI (conector externo)**  
