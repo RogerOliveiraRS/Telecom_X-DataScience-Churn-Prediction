@@ -216,7 +216,7 @@ A modelagem de churn não apenas forneceu previsões confiáveis, mas também in
 ## 5. Impacto Financeiro — Churn e Faturamento
 
 
-O presente cenário de tarifaço aplicado sobre o Estado do RS revela um quadro preocupante de **erosão da base de clientes**, com impacto direto no faturamento da operação. Este trecho detalha os efeitos projetados sobre **churn médio**, segmentações comportamentais e projeções de faturamento.
+O presente cenário das novas tarifas dos EUA impostas a diversos países, incluindo o Brasil e especificamente o Rio Grande do Sul, atinge  vários produtos e revela um quadro preocupante para a **erosão da base de clientes**, com impacto direto no faturamento da operação. Este trecho detalha os efeitos projetados sobre **churn médio**, segmentações comportamentais e projeções de faturamento.
 
 ### 🧠 Risco Médio de Churn por Grupos Proxy
 
