@@ -72,7 +72,7 @@ Este documento objetiva apresentar  os resultados de simulações estratégicas 
 
 ## 3. Metodologia Geral
 
-A análise dos cenários foi conduzida com base em técnicas de modelagem preditiva e segmentação comportamental, combinando dados sintéticos de clientes com variações parametrizadas de risco. **Machine Learning, treinamento de diferentes modelos com refinamento dos resultados foram utilizados.**O objetivo da metodologia é oferecer simulações realistas e operacionalizáveis, que permitam à Telecom X antecipar impactos e reagir com agilidade frente a eventos críticos.
+A análise dos cenários foi conduzida com base em técnicas de modelagem preditiva e segmentação comportamental, combinando dados sintéticos de clientes com variações parametrizadas de risco. Machine Learning, treinamento de diferentes modelos com refinamento dos resultados foram utilizados. O objetivo da metodologia é oferecer simulações realistas e operacionalizáveis, que permitam à Telecom X antecipar impactos e reagir com agilidade frente a eventos críticos.
 
 ---
 
